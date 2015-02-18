@@ -66,15 +66,15 @@ header{
 table {
   margin-left:auto; 
   margin-right:auto; 
-  width: 320px; 
+  width: 220px; 
   -webkit-user-select: none; 
   margin-top: 50px;
 }
 td {
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
   text-align: center;
-  font-size: 72px;
+  font-size: 50px;
   border: 2px solid #5CC551;
   -webkit-border-radius: 10px;
 }
@@ -87,23 +87,23 @@ td {
 }
 #players > div {
   display: inline-block;
-  padding-right: 25px;
+  margin-right: 25px;
   color: #cccccc;
-  margin-top: 40px;
+  float: left;
   -webkit-transition-duration: 200ms;
 }
 #players div:nth-child(1){
   margin-left: 50px;
 }
 .button {
-  float: right;
-  width: 150px;
-  height: 60px;
-  font-size: 23px;
+  float: left;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
   font-family: cursive;
   border: none;
   border-radius: 50px;
-  margin-right: 20px;
+  margin-left: 50px;
 }
 .current-player {
   color: black !important;
