@@ -96,14 +96,14 @@ td {
   margin-left: 50px;
 }
 .button {
-  float: left;
+  float: right;
   width: 100px;
   height: 30px;
   font-size: 15px;
   font-family: cursive;
   border: none;
   border-radius: 50px;
-  margin-left: 50px;
+  margin-right: 10px;
 }
 .current-player {
   color: black !important;
